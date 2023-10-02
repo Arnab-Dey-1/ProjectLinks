@@ -23,7 +23,7 @@ header {
 
 /* Style the page title with a larger font size and subtle text shadow */
 header h1 {
-    font-size: 36px;
+    font-size: 30px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
@@ -40,7 +40,8 @@ main {
 /* Style project sections with a gradient background, border, and rounded corners */
 section {
     background: linear-gradient(to bottom, #ffffff, #f0f0f0); /* Light gray gradient */
-    border: 1px solid #ddd;
+    font-size: 13px;
+border: 1px solid #ddd;
     padding: 30px;
     margin-bottom: 30px;
     border-radius: 10px;
@@ -48,7 +49,7 @@ section {
 
 /* Style project headings with a gradient text effect, larger font size, and bold */
 section h2 {
-    font-size: 28px;
+    font-size: 10px;
     color: #333;
     background: linear-gradient(to right, #FFD700, #FFA500); /* Gold gradient */
     -webkit-background-clip: text;
@@ -59,9 +60,9 @@ section h2 {
 
 /* Style project descriptions with a subtle opacity effect and increased line height */
 section p {
-    font-size: 18px;
+    font-size: 14px;
     color: #666;
-    opacity: 0.85;
+    opacity: 1000.85;
     line-height: 1.4;
 }
 
@@ -72,7 +73,7 @@ section a {
     background: linear-gradient(to right, #3498db, #2980b9); /* Blue gradient */
     color: #fff;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 80px;
     font-weight: bold;
     transition: background 0.3s, transform 0.2s;
 }
