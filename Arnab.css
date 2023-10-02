@@ -1,0 +1,105 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a gradient background for the entire page */
+body {
+    background: linear-gradient(to bottom, #6a0572, #AB83A1); /* Purple gradient */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Style the header with a gradient background, centered text, and border */
+header {
+    background: linear-gradient(to bottom, #4a0251, #6a0572); /* Darker purple gradient */
+    text-align: center;
+    padding: 30px 0;
+    color: #fff;
+    border-bottom: 4px solid #FFD700; /* Gold border */
+}
+
+/* Style the page title with a larger font size and subtle text shadow */
+header h1 {
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the main content area with rounded corners, a subtle background, and shadow */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Style project sections with a gradient background, border, and rounded corners */
+section {
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0); /* Light gray gradient */
+    border: 1px solid #ddd;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+/* Style project headings with a gradient text effect, larger font size, and bold */
+section h2 {
+    font-size: 28px;
+    color: #333;
+    background: linear-gradient(to right, #FFD700, #FFA500); /* Gold gradient */
+    -webkit-background-clip: text;
+    background-clip: text;
+    display: inline;
+    font-weight: bold;
+}
+
+/* Style project descriptions with a subtle opacity effect and increased line height */
+section p {
+    font-size: 18px;
+    color: #666;
+    opacity: 0.85;
+    line-height: 1.4;
+}
+
+/* Style project links as buttons with a gradient background, hover effect, and rounded corners */
+section a {
+    display: inline-block;
+    padding: 12px 24px;
+    background: linear-gradient(to right, #3498db, #2980b9); /* Blue gradient */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+}
+
+section a:hover {
+    background: linear-gradient(to right, #1abc9c, #16a085); /* Green gradient */
+    transform: scale(1.05); /* Hover scaling effect */
+}
+
+/* Style the footer with a gradient background, centered text, and padding */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: linear-gradient(to bottom, #4a0251, #6a0572); /* Darker purple gradient */
+    color: #fff;
+}
+
+/* Add a subtle animation to the project links */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+section a:hover {
+    animation: float 0.5s ease-in-out infinite; /* Hover animation */
+}
