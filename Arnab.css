@@ -41,7 +41,7 @@ main {
 section {
     background: linear-gradient(to bottom, #ffffff, #f0f0f0); /* Light gray gradient */
     font-size: 13px;
-border: 1px solid #ddd;
+    border: 1px solid #ddd;
     padding: 30px;
     margin-bottom: 30px;
     border-radius: 10px;
